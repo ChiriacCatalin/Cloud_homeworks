@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "async": "^3.2.3",
+    "axios": "^0.26.0",
+    "chart.js": "^3.7.1",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2"
+  },
+  "name": "delete_me",
+  "version": "1.0.0",
+  "main": "temaCC.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon temaCC.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
