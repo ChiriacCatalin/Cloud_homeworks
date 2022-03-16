@@ -202,3 +202,179 @@ UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  15.38
 GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  159.42390000075102 milliseconds  || Status 200 || {"encoded image"}
 GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  447.40230000019073 milliseconds  || Status 200 || {"encoded image"}
 GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  555.791599996388 milliseconds  || Status 200 || {"encoded image"}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  498.5940999984741 milliseconds  || Status 200 || {"fact":"A cat's field of vision is about 200 degrees.","length":45}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  226.06939999759197 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/samoyed/n02111889_597.jpg","status":"success"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  602.6731000095606 milliseconds  || Status 200 || {"status": "success", "name": "n02111889-597"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  417.81470000743866 milliseconds  || Status 200 || {"encoded image"}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  382.416400000453 milliseconds  || Status 200 || {"fact":"On average, a cat will sleep for 16 hours a day.","length":48}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  173.06049999594688 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/briard/n02105251_7745.jpg","status":"success"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  309.7127999961376 milliseconds  || Status 200 || {"status": "success", "name": "n02105251-7745"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  371.68389999866486 milliseconds  || Status 200 || {"encoded image"}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  434.3440000116825 milliseconds  || Status 200 || {"fact":"Cats have the largest eyes of any mammal.","length":41}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  173.27919998764992 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/spaniel-brittany/n02101388_2522.jpg","status":"success"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  295.64429999887943 milliseconds  || Status 200 || {"status": "success", "name": "n02101388-2522"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  338.9981000125408 milliseconds  || Status 200 || {"encoded image"}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  662.345400005579 milliseconds  || Status 200 || {"fact":"The cat's tail is used to maintain balance.","length":43}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  176.93290001153946 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/leonberg/n02111129_1851.jpg","status":"success"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  431.7270000129938 milliseconds  || Status 200 || {"status": "success", "name": "n02111129-1851"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  431.7775000035763 milliseconds  || Status 200 || {"encoded image"}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  391.28659999370575 milliseconds  || Status 200 || {"fact":"A cat's hearing is much more sensitive than humans and dogs.","length":60}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  4.32209999859333 milliseconds  || Status 200 || {"fact":"Normal body temperature for a cat is 102 degrees F.","length":51}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  23.74890001118183 milliseconds  || Status 200 || {"fact":"The cat's tail is used to maintain balance.","length":43}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  167.51459999382496 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/papillon/n02086910_8354.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  177.84309999644756 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/pitbull/20190710_143021.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  196.15639999508858 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/dane-great/n02109047_8090.jpg","status":"success"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  243.83759999275208 milliseconds  || Status 200 || {"status": "success", "name": "n02086910-8354"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  70.19249999523163 milliseconds  || Status 200 || {"status": "success", "name": "n02109047-8090"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  229.87279999256134 milliseconds  || Status 200 || {"encoded image"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  366.22489999234676 milliseconds  || Status 200 || {"encoded image"}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  413.27609999477863 milliseconds  || Status 200 || {"fact":"A happy cat holds her tail high and steady.","length":43}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  4.230999991297722 milliseconds  || Status 200 || {"fact":"A group of cats is called a “clowder.”","length":38}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  4.31360000371933 milliseconds  || Status 200 || {"fact":"A tiger's stripes are like fingerprints","length":39}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  185.6875 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/terrier-american/n02093428_10947.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  188.21909999847412 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/spaniel-irish/n02102973_2280.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  212.64090000092983 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/terrier-silky/n02097658_2069.jpg","status":"success"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  121.04669998586178 milliseconds  || Status 520 || 
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  139.46230000257492 milliseconds  || Status 200 || {"status": "success", "name": "n02102973-2280"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  151.97540000081062 milliseconds  || Status 500 || {"encoded image"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  157.14630000293255 milliseconds  || Status 200 || {"status": "success", "name": "n02093428-10947"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  5.7503999918699265 milliseconds  || Status 200 || {"status": "success", "name": "n02097658-2069"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  165.68469999730587 milliseconds  || Status 200 || {"encoded image"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  455.91019999980927 milliseconds  || Status 200 || {"encoded image"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  474.5592000037432 milliseconds  || Status 200 || {"encoded image"}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  391.9497999995947 milliseconds  || Status 200 || {"fact":"A cat has two vocal chords, and can make over 100 sounds.","length":57}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  3.884099990129471 milliseconds  || Status 200 || {"fact":"The cat has 500 skeletal muscles (humans have 650).","length":51}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  31.388199999928474 milliseconds  || Status 200 || {"fact":"Neutering a cat extends its life span by two or three years.","length":60}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  149.57830001413822 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/terrier-westhighland/n02098286_3480.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  170.449300006032 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/pinscher-miniature/n02107312_957.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  179.94189999997616 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/terrier-welsh/lucy.jpg","status":"success"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  276.3584000021219 milliseconds  || Status 200 || {"status": "success", "name": "n02098286-3480"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  15.263800010085106 milliseconds  || Status 200 || {"status": "success", "name": "n02107312-957"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  285.8971999883652 milliseconds  || Status 500 || {"status": "error", "message": "File exists"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  135.7613999992609 milliseconds  || Status 200 || {"encoded image"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  176.55810000002384 milliseconds  || Status 200 || {"encoded image"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  543.8273999989033 milliseconds  || Status 200 || {"encoded image"}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  858.9495999962091 milliseconds  || Status 200 || {"fact":"Cats can be right-pawed or left-pawed.","length":38}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  219.8951000124216 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/clumber/n02101556_7923.jpg","status":"success"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  600.2732000052929 milliseconds  || Status 200 || {"status": "success", "name": "n02101556-7923"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  355.6570999920368 milliseconds  || Status 200 || {"encoded image"}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  320.2555000036955 milliseconds  || Status 200 || {"fact":"A cat will tremble or shiver when it is extreme pain.","length":53}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  114.77019999921322 milliseconds  || Status 200 || {"fact":"Cats dislike citrus scent.","length":26}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  93.15189999341965 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/spaniel-welsh/n02102177_3295.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  167.36839999258518 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/mix/IMG_0004.jpg","status":"success"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  344.8797000050545 milliseconds  || Status 200 || {"status": "success", "name": "n02102177-3295"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  182.80599999427795 milliseconds  || Status 200 || {"status": "success", "name": "IMG-0004"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  190.60320000350475 milliseconds  || Status 200 || {"encoded image"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  601.4824000000954 milliseconds  || Status 200 || {"encoded image"}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  459.123400002718 milliseconds  || Status 200 || {"fact":"70% of your cat's life is spent asleep.","length":39}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  227.83909998834133 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/papillon/n02086910_5010.jpg","status":"success"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  636.725599989295 milliseconds  || Status 200 || {"status": "success", "name": "n02086910-5010"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  362.7964999973774 milliseconds  || Status 200 || {"encoded image"}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  466.5790999978781 milliseconds  || Status 200 || {"fact":"A cat cannot see directly under its nose.","length":41}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  198.43270000815392 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/terrier-border/n02093754_115.jpg","status":"success"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  432.59980000555515 milliseconds  || Status 200 || {"status": "success", "name": "n02093754-115"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  406.45490001142025 milliseconds  || Status 200 || {"encoded image"}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  410.25650000572205 milliseconds  || Status 200 || {"fact":"Kittens remain with their mother till the age of 9 weeks.","length":57}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  202.59520000219345 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/spaniel-welsh/n02102177_1567.jpg","status":"success"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  334.34739999473095 milliseconds  || Status 200 || {"status": "success", "name": "n02102177-1567"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  422.9895000010729 milliseconds  || Status 200 || {"encoded image"}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  400.94209998846054 milliseconds  || Status 200 || {"fact":"Tigers are excellent swimmers and do not avoid water.","length":53}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  4.412699997425079 milliseconds  || Status 200 || {"fact":"There are approximately 100 breeds of cat.","length":42}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  9.365799993276596 milliseconds  || Status 200 || {"fact":"Many cats love having their forehead gently stroked.","length":52}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  5.184599995613098 milliseconds  || Status 200 || {"fact":"Cats have supersonic hearing","length":28}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  6.867200002074242 milliseconds  || Status 200 || {"fact":"Cats' hearing is much more sensitive than humans and dogs.","length":58}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  174.32350000739098 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/dachshund/dachshund-1018409_640.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  178.7812000066042 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/pyrenees/n02111500_8637.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  256.96000000834465 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/affenpinscher/n02110627_10848.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  264.4818000048399 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/sheepdog-shetland/n02105855_11668.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  268.19400000572205 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/spaniel-japanese/n02085782_1528.jpg","status":"success"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  238.43060000240803 milliseconds  || Status 200 || {"status": "success", "name": "n02085782-1528"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  30.886399999260902 milliseconds  || Status 200 || {"status": "success", "name": "n02111500-8637"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  68.58309999108315 milliseconds  || Status 200 || {"status": "success", "name": "n02110627-10848"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  28.92069999873638 milliseconds  || Status 200 || {"status": "success", "name": "dachshund-1018409-640"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  226.18899999558926 milliseconds  || Status 200 || {"status": "success", "name": "n02105855-11668"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  62.117499992251396 milliseconds  || Status 200 || {"encoded image"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  209.92329999804497 milliseconds  || Status 200 || {"encoded image"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  70.99729999899864 milliseconds  || Status 200 || {"encoded image"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  86.91149999201298 milliseconds  || Status 200 || {"encoded image"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  163.18159998953342 milliseconds  || Status 200 || {"encoded image"}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  377.3214999884367 milliseconds  || Status 200 || {"fact":"A domestic cat can run at speeds of 30 mph.","length":43}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  18.411200001835823 milliseconds  || Status 200 || {"fact":"There are approximately 100 breeds of cat.","length":42}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  8.969799995422363 milliseconds  || Status 200 || {"fact":"Most cats adore sardines.","length":25}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  26.65829999744892 milliseconds  || Status 200 || {"fact":"A cat can spend five or more hours a day grooming himself.","length":58}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  7.940200001001358 milliseconds  || Status 200 || {"fact":"There are approximately 100 breeds of cat.","length":42}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  118.00200000405312 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/hound-walker/n02089867_3784.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  136.2905000001192 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/frise-bichon/stevebaxter_bichon_frise.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  177.1271000057459 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/terrier-norwich/n02094258_2956.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  178.39049999415874 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/terrier-australian/n02096294_3642.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  185.05560000240803 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/pointer-germanlonghair/hans2.jpg","status":"success"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  111.10180000960827 milliseconds  || Status 200 || {"status": "success", "name": "n02089867-3784"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  119.18379999697208 milliseconds  || Status 200 || {"status": "success", "name": "n02096294-3642"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  109.56300000846386 milliseconds  || Status 200 || {"status": "success", "name": "n02094258-2956"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  152.35830000042915 milliseconds  || Status 200 || {"encoded image"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  268.7664999961853 milliseconds  || Status 200 || {"encoded image"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  281.37619999051094 milliseconds  || Status 200 || {"status": "success", "name": "stevebaxter-bichon-frise"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  151.1777999997139 milliseconds  || Status 200 || {"status": "success", "name": "hans2"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  10.744500011205673 milliseconds  || Status 200 || {"encoded image"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  259.20389999449253 milliseconds  || Status 200 || {"encoded image"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  302.16619999706745 milliseconds  || Status 200 || {"encoded image"}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  370.965499997139 milliseconds  || Status 200 || {"fact":"Tylenol and chocolate are both poisionous to cats.","length":50}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  10.501400008797646 milliseconds  || Status 200 || {"fact":"In 1987 cats overtook dogs as the number one pet in America.","length":60}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  16.640499994158745 milliseconds  || Status 200 || {"fact":"In 1987 cats overtook dogs as the number one pet in America.","length":60}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  1.4008999913930893 milliseconds  || Status 200 || {"fact":"A female cat is called a queen or a molly.","length":42}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  28.879700005054474 milliseconds  || Status 200 || {"fact":"Cats have 300 million neurons; dogs have about 160 million","length":58}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  124.13089999556541 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/terrier-fox/n02095314_3451.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  165.54619999229908 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/terrier-scottish/n02097298_8392.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  179.0178999900818 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/terrier-russell/little1.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  181.47739998996258 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/malinois/n02105162_5547.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  183.55739998817444 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/labradoodle/labradoodle-forrest.png","status":"success"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  128.2280000001192 milliseconds  || Status 200 || {"status": "success", "name": "n02095314-3451"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  119.94900000095367 milliseconds  || Status 200 || {"status": "success", "name": "n02105162-5547"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  6.967100009322166 milliseconds  || Status 200 || {"status": "success", "name": "n02097298-8392"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  273.30259999632835 milliseconds  || Status 200 || {"encoded image"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  419.72699999809265 milliseconds  || Status 500 || {"status": "error", "message": "File is not an image"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  104.65649999678135 milliseconds  || Status 200 || {"encoded image"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  111.81290000677109 milliseconds  || Status 200 || {"status": "success", "name": "little1"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  4.334000006318092 milliseconds  || Status 200 || {"encoded image"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  152.37750001251698 milliseconds  || Status 500 || {"encoded image"}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  390.04500000178814 milliseconds  || Status 200 || {"fact":"On average, a cat will sleep for 16 hours a day.","length":48}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  10.572200000286102 milliseconds  || Status 200 || {"fact":"Like humans, cats tend to favor one paw over another","length":52}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  11.162200003862381 milliseconds  || Status 200 || {"fact":"It is estimated that cats can make over 60 different sounds.","length":60}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  4.598200008273125 milliseconds  || Status 200 || {"fact":"A cats field of vision is about 185 degrees.","length":44}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  11.662799999117851 milliseconds  || Status 200 || {"fact":"The leopard is the most widespread of all big cats.","length":51}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  92.32090000808239 milliseconds  || Status 200 || {"encoded image"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  152.9927999973297 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/bluetick/n02088632_1118.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  155.86850000917912 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/terrier-toy/n02087046_5325.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  170.84489999711514 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/malamute/n02110063_12970.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  177.3999000042677 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/bulldog-french/n02108915_12904.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  188.54379999637604 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/mountain-swiss/n02107574_1092.jpg","status":"success"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  195.11670000851154 milliseconds  || Status 200 || {"status": "success", "name": "n02087046-5325"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  31.78779999911785 milliseconds  || Status 200 || {"status": "success", "name": "n02108915-12904"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  36.59309999644756 milliseconds  || Status 200 || {"status": "success", "name": "n02088632-1118"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  25.530500009655952 milliseconds  || Status 200 || {"status": "success", "name": "n02110063-12970"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  100.36559998989105 milliseconds  || Status 200 || {"status": "success", "name": "n02107574-1092"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  309.9644000083208 milliseconds  || Status 200 || {"encoded image"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  403.0420000106096 milliseconds  || Status 200 || {"encoded image"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  483.8378000110388 milliseconds  || Status 200 || {"encoded image"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  493.707000002265 milliseconds  || Status 200 || {"encoded image"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  592.4179000109434 milliseconds  || Status 200 || {"encoded image"}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  387.3218999952078 milliseconds  || Status 200 || {"fact":"Cat's urine glows under a black light.","length":38}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  8.941700011491776 milliseconds  || Status 200 || {"fact":"Blue-eyed, white cats are often prone to deafness.","length":50}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  5.6182000041008 milliseconds  || Status 200 || {"fact":"It is estimated that cats can make over 60 different sounds.","length":60}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  3.0017000138759613 milliseconds  || Status 200 || {"fact":"The cat's tail is used to maintain balance.","length":43}
+GetRandomFact || https://catfact.ninja/fact?max_length=60 || method: GET ||  7.2424000054597855 milliseconds  || Status 200 || {"fact":"A cat's hearing is much more sensitive than humans and dogs.","length":60}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  172.81659999489784 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/appenzeller/n02107908_1811.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  188.25540000200272 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/terrier-lakeland/n02095570_1947.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  193.9750999957323 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/spaniel-brittany/n02101388_3023.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  207.60320000350475 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/entlebucher/n02108000_375.jpg","status":"success"}
+GetRandomDogImage || https://dog.ceo/api/breeds/image/random || method: GET ||  209.82459999620914 milliseconds  || Status 200 || {"message":"https://images.dog.ceo/breeds/terrier-russell/little1.jpg","status":"success"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  37.34950000047684 milliseconds  || Status 200 || {"status": "success", "name": "n02107908-1811"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  48.63120000064373 milliseconds  || Status 200 || {"status": "success", "name": "n02095570-1947"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  3.085299998521805 milliseconds  || Status 200 || {"status": "success", "name": "n02108000-375"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  151.15269999206066 milliseconds  || Status 200 || {"status": "success", "name": "n02101388-3023"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  284.7170000076294 milliseconds  || Status 200 || {"encoded image"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  376.8429000079632 milliseconds  || Status 200 || {"encoded image"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  408.8856000006199 milliseconds  || Status 200 || {"encoded image"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  476.75949999690056 milliseconds  || Status 200 || {"encoded image"}
+UploadImage || ronreiter-meme-generator.p.rapidapi.com || method: POST ||  571.2636999934912 milliseconds  || Status 500 || {"status": "error", "message": "File exists"}
+GenerateMeme || ronreiter-meme-generator.p.rapidapi.com || method: GET ||  848.8092000037432 milliseconds  || Status 200 || {"encoded image"}

@@ -4,8 +4,8 @@ const axios = require('axios');
 const url = 'http://localhost:3000';
 
 const task = () => { axios.get(url) };
-const parallelRequestsCnt = 3;
-const batchesCnt = 3;
+const parallelRequestsCnt =5;
+const batchesCnt = 5;
 const tasks = Array(parallelRequestsCnt).fill(task);
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms))
 
