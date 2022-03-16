@@ -1,0 +1,527 @@
+{
+	"info": {
+		"_postman_id": "97a26eb7-e280-4024-80cb-805718caafe7",
+		"name": "Cloud_hw2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET 200 /users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET 200 /users/:id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/users/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET 200 /users/page/:nr",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/users/page/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"page",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET 404 /users/:id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/users/1111",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"1111"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET 200 /cars",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/cars",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"cars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET 200 /cars/:id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/cars/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"cars",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET 404 /cars/:id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/cars/333",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"cars",
+						"333"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST 409 /users/:id",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\": \"Idie Tonigh2\",\r\n        \"gender\": \"Female\",\r\n        \"country\": \"Ukraina\"\r\n    }\r\n]"
+				},
+				"url": {
+					"raw": "http://localhost:3000/users/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"1"
+					]
+				},
+				"description": "Conflict - existing id"
+			},
+			"response": []
+		},
+		{
+			"name": "POST 201 /users/:id",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\": \"Idie Tonigh3\",\r\n        \"gender\": \"Female\",\r\n        \"country\": \"Ukraina\"\r\n    }\r\n]"
+				},
+				"url": {
+					"raw": "http://localhost:3000/users/502",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"502"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST 404 /users/:id",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\": \"Idie Tonigh3\",\r\n        \"gender\": \"Female\",\r\n        \"country\": \"Ukraina\"\r\n    }\r\n]"
+				},
+				"url": {
+					"raw": "http://localhost:3000/users/506aa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"506aa"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "!POST 201 /users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\": \"Idie Tonigh3\",\r\n        \"gender\": \"Female\",\r\n        \"country\": \"Ukraina\"\r\n    },\r\n    {\r\n        \"name\": \"Mickey Mouse\",\r\n        \"gender\": \"Male\",\r\n        \"country\": \"England\"\r\n    },\r\n    {\r\n        \"name\": \"Tomand Jerry\",\r\n        \"gender\": \"Male\",\r\n        \"country\": \"France\"\r\n    }\r\n]"
+				},
+				"url": {
+					"raw": "http://localhost:3000/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST 409 /users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\": \"Idie Tonigh3\",\r\n        \"tendency\": \"Female\",\r\n        \"country\": \"Ukraina\"\r\n    },\r\n    {\r\n        \"name\": \"Mickey Mouse\",\r\n        \"gender\": \"Male\",\r\n        \"country\": \"England\"\r\n    }\r\n]"
+				},
+				"url": {
+					"raw": "http://localhost:3000/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users"
+					]
+				},
+				"description": "Conflict - data from jSon doesn't match with the database"
+			},
+			"response": []
+		},
+		{
+			"name": "GET 200 /users/page/:last",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/users/page/51",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"page",
+						"51"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT 200 /users/:id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\": \"Idie Tonigh\",\r\n        \"gender\": \"Female\",\r\n        \"country\": \"Ukraina\"\r\n    }\r\n]"
+				},
+				"url": {
+					"raw": "http://localhost:3000/users/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT 404 /users/:id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"name\": \"Idie Tonigh\",\r\n        \"gender\": \"Female\",\r\n        \"country\": \"Ukraina\"\r\n    }\r\n]"
+				},
+				"url": {
+					"raw": "http://localhost:3000/users/1111",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"1111"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT 200 /users",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "b0af2251-b385-493a-8731-0862faf7192b",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"id\": 1,\r\n        \"name\": \"Merry Merry Cry\",\r\n        \"gender\": \"Female\",\r\n        \"country\": \"Ukraina\"\r\n    },\r\n    {\r\n        \"id\": 2,\r\n        \"name\": \"Merry Merry Die\",\r\n        \"gender\": \"Female\",\r\n        \"country\": \"Ukraina\"\r\n    },\r\n    {\r\n        \"id\": 6,\r\n        \"name\": \"Merry Merry Lie\",\r\n        \"gender\": \"Female\",\r\n        \"country\": \"Ukraina\"\r\n    },\r\n    {\r\n        \"id\": 4,\r\n        \"name\": \"Merry Merry Why\",\r\n        \"gender\": \"Female\",\r\n        \"country\": \"Ukraina\"\r\n    }\r\n\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users"
+					]
+				},
+				"description": "PUT /users 200"
+			},
+			"response": []
+		},
+		{
+			"name": "PUT 404 /users",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"id\": 661,\r\n        \"name\": \"Merry Merry Cry\",\r\n        \"gender\": \"Female\",\r\n        \"country\": \"Ukraina\"\r\n    },\r\n    {\r\n        \"id\": 2,\r\n        \"name\": \"Merry Merry Die\",\r\n        \"gender\": \"Female\",\r\n        \"country\": \"Ukraina\"\r\n    },\r\n    {\r\n        \"id\": 6,\r\n        \"name\": \"Merry Merry Lie\",\r\n        \"gender\": \"Female\",\r\n        \"country\": \"Ukraina\"\r\n    },\r\n    {\r\n        \"id\": 4,\r\n        \"name\": \"Merry Merry Why\",\r\n        \"gender\": \"Female\",\r\n        \"country\": \"Ukraina\"\r\n    }\r\n\r\n]"
+				},
+				"url": {
+					"raw": "http://localhost:3000/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users"
+					]
+				},
+				"description": "PUT 404 /users"
+			},
+			"response": []
+		},
+		{
+			"name": "GET 200  /users/page/:first",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/users/page/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"page",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE 200 /users/:id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/users/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET 200 /users/page/:first",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/users/page/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"page",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE 404 /users/:id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/users/999",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users",
+						"999"
+					]
+				},
+				"description": "User with the specific id not found"
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE 200 + 204 next   /users",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Other method 405 /users",
+			"request": {
+				"method": "HEAD",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"users"
+					]
+				},
+				"description": "Any other method beside beside the PUT/POST/GET/DELETE is not allowed"
+			},
+			"response": []
+		}
+	]
+}
